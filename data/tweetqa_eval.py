@@ -45,7 +45,8 @@ def ans_score(ans, gold_list):
     rouge, _ = rouge_scorer.compute_score({0:gold_list}, {0:[ans]})
     return {'bleu': bleu, 'meteor':meteor, 'rouge': rouge}
 
-def evaluate(test_annotation_file, user_annotation_file, phase_codename, **kwargs):
+# def evaluate(test_annotation_file, user_annotation_file, phase_codename, **kwargs):
+def evaluate(test_annotation_file, user_annotation_file):
     gold_file = test_annotation_file
     pred_file = user_annotation_file
     gold = json.load(open(gold_file))
@@ -77,8 +78,11 @@ def evaluate(test_annotation_file, user_annotation_file, phase_codename, **kwarg
 
     return output
 
-# if __name__ == '__main__':
-#     pred_file = sys.argv[1]
-#     gold_file = sys.argv[2]
-#     eval(pred_file, gold_file)
-
+if __name__ == '__main__':
+    # pred_file = sys.argv[1]
+    # gold_file = sys.argv[2]
+    # DATA_PATH = '/content/gdrive/MyDrive/TweetQA/'
+    DATA_PATH = ''
+    ground_truth = DATA_PATH + 'data/dev.json'
+    prediction = DATA_PATH + 'final_predictions.json'
+    evaluate(test_annotation_file=ground_truth, user_annotation_file=prediction)
