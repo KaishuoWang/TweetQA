@@ -2,6 +2,7 @@
 The official evaluation script for TweetQA, the normalize function is based on the evaluation of SQuAD
 """
 
+import sys
 import string
 import re
 import json
@@ -84,5 +85,6 @@ if __name__ == '__main__':
     # DATA_PATH = '/content/gdrive/MyDrive/TweetQA/'
     DATA_PATH = ''
     ground_truth = DATA_PATH + 'dev.json'
-    prediction = DATA_PATH + '../final_predictions.json'
+    # prediction = DATA_PATH + '../byt5_predictions.json'
+    prediction = DATA_PATH + sys.argv[1]
     evaluate(test_annotation_file=ground_truth, user_annotation_file=prediction)
