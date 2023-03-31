@@ -83,6 +83,6 @@ if __name__ == '__main__':
     # gold_file = sys.argv[2]
     # DATA_PATH = '/content/gdrive/MyDrive/TweetQA/'
     DATA_PATH = ''
-    ground_truth = DATA_PATH + 'data/dev.json'
-    prediction = DATA_PATH + 'final_predictions.json'
+    ground_truth = DATA_PATH + 'dev.json'
+    prediction = DATA_PATH + '../final_predictions.json'
     evaluate(test_annotation_file=ground_truth, user_annotation_file=prediction)
