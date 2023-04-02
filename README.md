@@ -8,6 +8,8 @@
 * METEOR: 0.502613575953765  
 * ROUGE: 0.5774875569494207
 
+ByT5 was fine-tuned based on [google/byt5-base](https://huggingface.co/google/byt5-base)
+
 ## Extractive QA
 
 ### BERT
