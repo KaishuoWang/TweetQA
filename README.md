@@ -1,18 +1,38 @@
 # TweetQA
 
-## Generative QA - ByT5
+## Generative QA
+
+### ByT5
 
 * BLEU: 0.558790131346158  
 * METEOR: 0.502613575953765  
 * ROUGE: 0.5774875569494207
 
-## Extractive QA - BERT
+## Extractive QA
+
+### BERT
 
 * BLEU: 0.795610281998126  
 * METEOR: 0.7561982297117271  
 * ROUGE: 0.8254572055900666
 
 BERT was fine-tuned based on `deepset/bert-base-cased-squad2`
+
+### DeBERTa
+
+* BLEU: 0.825894667944233
+* METEOR: 0.7979121897801108
+* ROUGE: 0.8496681483876328
+
+DeBERTa was fine-tuned based on `deepset/deberta-v3-base-squad2`
+
+### RoBERTa
+
+* BLEU: 0.8589009403662852
+* METEOR: 0.8276891212958758
+* ROUGE: 0.8743271900687026
+
+RoBERTa was fine-tuned based on `deepset/roberta-base-squad2`
 
 ### Small experiment using different base model
 
@@ -33,12 +53,6 @@ We conducted an small experiment to compare the performance between model fine-t
 | 1 | 49.22680412371134 | 65.4802215859955 |
 | 2 | 50.0 | 65.99263528443277 |
 | 3 | 50.38659793814433 | 66.3370927426314 |
-
-## DeBERTa
-
-* BLEU: 0.825894667944233
-* METEOR: 0.7979121897801108
-* ROUGE: 0.8496681483876328
 
 ## Evaluation
 
