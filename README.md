@@ -36,9 +36,13 @@ We conducted an small experiment to compare the performance between model fine-t
 
 ## Evaluation
 
-Run following code to evaluate fine-tuned model
+Before you run evaluation script, you need to install [nlg-eval](https://github.com/Maluuba/nlg-eval). Then run following code to evaluate fine-tuned model
 
 ```bash
 cd data
 python tweetqa_eval.py prediction_file ground_truth_file
 ```
+
+## Acknowledgments
+
+1. [HuggingFace course - Question Answering](https://huggingface.co/course/chapter7/7?fw=pt)
