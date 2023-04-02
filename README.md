@@ -33,3 +33,12 @@ We conducted an small experiment to compare the performance between model fine-t
 | 1 | 49.22680412371134 | 65.4802215859955 |
 | 2 | 50.0 | 65.99263528443277 |
 | 3 | 50.38659793814433 | 66.3370927426314 |
+
+## Evaluation
+
+Run following code to evaluate fine-tuned model
+
+```bash
+cd data
+python tweetqa_eval.py prediction_file ground_truth_file
+```
