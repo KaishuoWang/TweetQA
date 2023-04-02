@@ -16,7 +16,7 @@
 * METEOR: 0.7561982297117271  
 * ROUGE: 0.8254572055900666
 
-BERT was fine-tuned based on `deepset/bert-base-cased-squad2`
+BERT was fine-tuned based on [deepset/bert-base-cased-squad2](https://huggingface.co/deepset/bert-base-cased-squad2)
 
 ### DeBERTa
 
@@ -24,7 +24,7 @@ BERT was fine-tuned based on `deepset/bert-base-cased-squad2`
 * METEOR: 0.7979121897801108
 * ROUGE: 0.8496681483876328
 
-DeBERTa was fine-tuned based on `deepset/deberta-v3-base-squad2`
+DeBERTa was fine-tuned based on [deepset/deberta-v3-base-squad2](https://huggingface.co/deepset/deberta-v3-base-squad2)
 
 ### RoBERTa
 
@@ -32,7 +32,7 @@ DeBERTa was fine-tuned based on `deepset/deberta-v3-base-squad2`
 * METEOR: 0.8276891212958758
 * ROUGE: 0.8743271900687026
 
-RoBERTa was fine-tuned based on `deepset/roberta-base-squad2`
+RoBERTa was fine-tuned based on [deepset/roberta-base-squad2](https://huggingface.co/deepset/roberta-base-squad2)
 
 ### Small experiment using different base model
 
