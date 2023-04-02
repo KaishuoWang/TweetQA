@@ -34,6 +34,12 @@ We conducted an small experiment to compare the performance between model fine-t
 | 2 | 50.0 | 65.99263528443277 |
 | 3 | 50.38659793814433 | 66.3370927426314 |
 
+## DeBERTa
+
+* BLEU: 0.825894667944233
+* METEOR: 0.7979121897801108
+* ROUGE: 0.8496681483876328
+
 ## Evaluation
 
 Before you run evaluation script, you need to install [nlg-eval](https://github.com/Maluuba/nlg-eval). Then run following code to evaluate fine-tuned model
