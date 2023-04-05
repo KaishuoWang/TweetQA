@@ -56,6 +56,14 @@ We conducted an small experiment to compare the performance between model fine-t
 | 2 | 50.0 | 65.99263528443277 |
 | 3 | 50.38659793814433 | 66.3370927426314 |
 
+## Voting system
+
+After we generate predictions using aforementioned models, we evaluated the answer for each question using METEOR matric to chose the best one as the final answer.
+
+* BLEU: 0.7692314958713582
+* METEOR: 0.7332506954325637
+* ROUGE: 0.7786347026068464
+
 ## Evaluation
 
 Before you run evaluation script, you need to install [nlg-eval](https://github.com/Maluuba/nlg-eval). Then run following code to evaluate fine-tuned model
