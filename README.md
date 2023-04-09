@@ -1,5 +1,8 @@
 # TweetQA
 
+## Models
+Fine-tuned models can be found at [here](https://drive.google.com/drive/folders/1Iud7XmXAGzq_j0hJvuf87RS8RlqPOU9y?usp=sharing).
+
 ## Generative QA
 
 ### ByT5
