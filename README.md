@@ -78,4 +78,7 @@ python tweetqa_eval.py prediction_file ground_truth_file
 
 ## Acknowledgments
 
-1. [HuggingFace course - Question Answering](https://huggingface.co/course/chapter7/7?fw=pt)
+1. [TweetQA official website](https://tweetqa.github.io/)
+2. [HuggingFace course - Question Answering](https://huggingface.co/course/chapter7/7?fw=pt)
+3. [ByT5](https://huggingface.co/docs/transformers/main/en/model_doc/byt5)
+4. [T5](https://huggingface.co/docs/transformers/main/en/model_doc/t5)
